@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "PersonProtocol.h"
+//工厂协议，工厂是造人的。
 @protocol Factory <NSObject>
-
+-(id<PersonProtocol>)creatPerson;
 @end

@@ -13,6 +13,12 @@
 		189CDE0D1EF7A7C900C1D59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189CDE0C1EF7A7C900C1D59C /* Assets.xcassets */; };
 		189CDE101EF7A7C900C1D59C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189CDE0E1EF7A7C900C1D59C /* LaunchScreen.storyboard */; };
 		189CDE131EF7A7C900C1D59C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CDE121EF7A7C900C1D59C /* main.m */; };
+		189CDE1B1EF7A8B400C1D59C /* ManFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CDE1A1EF7A8B400C1D59C /* ManFactory.m */; };
+		189CDE1F1EF7AD3D00C1D59C /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CDE1E1EF7AD3D00C1D59C /* Man.m */; };
+		189CDE221EF7AE0300C1D59C /* Women.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CDE211EF7AE0300C1D59C /* Women.m */; };
+		189CDE251EF7B08600C1D59C /* WomenFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CDE241EF7B08600C1D59C /* WomenFactory.m */; };
+		189CDE281EF7BBD200C1D59C /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 189CDE271EF7BBD100C1D59C /* config.json */; };
+		189CDE2B1EF7BC5D00C1D59C /* FactoryEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 189CDE2A1EF7BC5D00C1D59C /* FactoryEngine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,19 @@
 		189CDE0F1EF7A7C900C1D59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		189CDE111EF7A7C900C1D59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189CDE121EF7A7C900C1D59C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189CDE191EF7A8B400C1D59C /* ManFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManFactory.h; sourceTree = "<group>"; };
+		189CDE1A1EF7A8B400C1D59C /* ManFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManFactory.m; sourceTree = "<group>"; };
+		189CDE1C1EF7A91000C1D59C /* PersonProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonProtocol.h; sourceTree = "<group>"; };
+		189CDE1D1EF7AD3D00C1D59C /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		189CDE1E1EF7AD3D00C1D59C /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		189CDE201EF7AE0300C1D59C /* Women.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Women.h; sourceTree = "<group>"; };
+		189CDE211EF7AE0300C1D59C /* Women.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Women.m; sourceTree = "<group>"; };
+		189CDE231EF7B08600C1D59C /* WomenFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WomenFactory.h; sourceTree = "<group>"; };
+		189CDE241EF7B08600C1D59C /* WomenFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WomenFactory.m; sourceTree = "<group>"; };
+		189CDE261EF7B65100C1D59C /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		189CDE271EF7BBD100C1D59C /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = config.json; path = ../../config.json; sourceTree = "<group>"; };
+		189CDE291EF7BC5D00C1D59C /* FactoryEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryEngine.h; sourceTree = "<group>"; };
+		189CDE2A1EF7BC5D00C1D59C /* FactoryEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryEngine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +81,24 @@
 				189CDE041EF7A7C900C1D59C /* AppDelegate.m */,
 				189CDE061EF7A7C900C1D59C /* ViewController.h */,
 				189CDE071EF7A7C900C1D59C /* ViewController.m */,
+				189CDE1D1EF7AD3D00C1D59C /* Man.h */,
+				189CDE1E1EF7AD3D00C1D59C /* Man.m */,
+				189CDE201EF7AE0300C1D59C /* Women.h */,
+				189CDE211EF7AE0300C1D59C /* Women.m */,
+				189CDE191EF7A8B400C1D59C /* ManFactory.h */,
+				189CDE1A1EF7A8B400C1D59C /* ManFactory.m */,
+				189CDE231EF7B08600C1D59C /* WomenFactory.h */,
+				189CDE241EF7B08600C1D59C /* WomenFactory.m */,
+				189CDE291EF7BC5D00C1D59C /* FactoryEngine.h */,
+				189CDE2A1EF7BC5D00C1D59C /* FactoryEngine.m */,
+				189CDE261EF7B65100C1D59C /* Factory.h */,
+				189CDE1C1EF7A91000C1D59C /* PersonProtocol.h */,
 				189CDE091EF7A7C900C1D59C /* Main.storyboard */,
 				189CDE0C1EF7A7C900C1D59C /* Assets.xcassets */,
 				189CDE0E1EF7A7C900C1D59C /* LaunchScreen.storyboard */,
 				189CDE111EF7A7C900C1D59C /* Info.plist */,
 				189CDE121EF7A7C900C1D59C /* main.m */,
+				189CDE271EF7BBD100C1D59C /* config.json */,
 			);
 			path = FactoryDesign;
 			sourceTree = "<group>";
@@ -129,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189CDE101EF7A7C900C1D59C /* LaunchScreen.storyboard in Resources */,
+				189CDE281EF7BBD200C1D59C /* config.json in Resources */,
 				189CDE0D1EF7A7C900C1D59C /* Assets.xcassets in Resources */,
 				189CDE0B1EF7A7C900C1D59C /* Main.storyboard in Resources */,
 			);
@@ -141,9 +174,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189CDE2B1EF7BC5D00C1D59C /* FactoryEngine.m in Sources */,
+				189CDE221EF7AE0300C1D59C /* Women.m in Sources */,
+				189CDE251EF7B08600C1D59C /* WomenFactory.m in Sources */,
 				189CDE081EF7A7C900C1D59C /* ViewController.m in Sources */,
 				189CDE131EF7A7C900C1D59C /* main.m in Sources */,
+				189CDE1F1EF7AD3D00C1D59C /* Man.m in Sources */,
 				189CDE051EF7A7C900C1D59C /* AppDelegate.m in Sources */,
+				189CDE1B1EF7A8B400C1D59C /* ManFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +237,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -253,7 +291,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

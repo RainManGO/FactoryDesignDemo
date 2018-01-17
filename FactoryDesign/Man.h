@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Man : NSObject
+#import "PersonProtocol.h"
+@interface Man : NSObject<PersonProtocol>
 
 @end

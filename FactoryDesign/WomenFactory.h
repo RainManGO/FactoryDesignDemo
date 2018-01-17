@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface WomenFactory : NSObject
-
+#import "Women.h"
+#import "Factory.h"
+@interface WomenFactory : NSObject<Factory>
++(instancetype)shareFactory;
 @end

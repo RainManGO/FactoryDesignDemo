@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Factory.h"
 
 @interface FactoryEngine : NSObject
-
++(instancetype)shareFactoryEngine;
+-(id<Factory>)creatFactory;
 @end

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface Women : NSObject
+#import "PersonProtocol.h"
+@interface Women : NSObject<PersonProtocol>
 
 @end

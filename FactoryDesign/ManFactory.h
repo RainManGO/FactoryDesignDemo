@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface ManFactory : NSObject
-
+#import "Man.h"
+#import "Factory.h"
+@interface ManFactory : NSObject<Factory>
++(instancetype)shareFactory;
 @end
