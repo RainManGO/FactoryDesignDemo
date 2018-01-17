@@ -3,4 +3,4 @@
 
 # Example
 
-![image](https://github.com/RainManGO/changeBgm-CSS-/blob/master/cssDemo.gif)
+![image](https://github.com/RainManGO/FactoryDesignDemo/blob/master/factoryDesign.gif)
